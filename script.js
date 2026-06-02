@@ -28,3 +28,12 @@ function startCountdown(targetDate) {
 
 const newYear = new Date(2026, 6, 7, 0, 0, 0).getTime();
 startCountdown(newYear);
+
+const button = document.querySelector(".button");
+button.addEventListener("touchstart", function (e) {
+  this.classList.add("touch-pressed");
+});
+
+button.addEventListener("touchend", function (e) {
+  this.classList.remove("touch-pressed");
+});
