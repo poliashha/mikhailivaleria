@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Приглашение на свадьбу | 07.07.2026" />
+    <meta property="og:image" content="./img/icon.jpg" />
+    <meta property="og:image:width" content="270" />
+    <meta property="og:image:height" content="270" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="color-scheme" content="light" />
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/variabels.css" />
+    <link rel="icon" href="img/icon.svg" sizes="any" />
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <object
+        class="line"
+        type="image/svg+xml"
+        data="./img/lineheader.svg"
+        width="412"
+        height="575"
+      ></object>
+      <h1 class="title header-text">
+        Михаил<br />
+        &<br />
+        Валерия
+      </h1>
+      <img class="foto" src="./img/foto.jpg" alt="" />
+    </header>
+    <main class="main">
+      <article class="dear">
+        <h1 class="title">дорогие друзья!</h1>
+        <object
+          class="convert"
+          type="image/svg+xml"
+          data="./img/convert.svg"
+          width="412"
+          height="337"
+        ></object>
+      </article>
+      <article class="calendar">
+        <object
+          class="convert"
+          type="image/svg+xml"
+          data="./img/calendar.svg"
+          width="412"
+          height="230"
+        ></object>
+      </article>
+      <article class="place">
+        <object
+          class="line-place"
+          type="image/svg+xml"
+          data="./img/line.svg"
+          width="412"
+          height="304"
+        ></object>
+        <h1 class="title">место проведения</h1>
+        <h1 class="title kursiv">Save the palce!</h1>
+        <p class="text">
+          Дворец Царя Алексея<br />
+          Михайловича Романова<br />
+          Москва, проспект Андропова,<br />
+          д.39 стр 69
+        </p>
+        <object
+          class=""
+          type="image/svg+xml"
+          data="./img/place.svg"
+          width="412"
+          height="336"
+        ></object>
+        <button class="map-button">
+          <a class="href" href="https://yandex.ru/maps/-/CPTXM8O4"
+            >посмотреть на карте</a
+          >
+        </button>
+      </article>
+      <article class="footer">
+        <img class="fon" src="./img/fon.jpg" alt="" />
+        <div class="box">
+          <h1 class="title">до свадьбы осталось</h1>
+          <h1 class="title kursiv">Waiting for you!</h1>
+          <div class="timer" id="timer">
+            <span class="timer-box">
+              <p class="timer-text days" id="days"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text hours" id="hours"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text minutes" id="minutes"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text seconds" id="seconds"></p>
+            </span>
+          </div>
+        </div>
+      </article>
+      <article class="small">
+        <h1 class="title text-footer">С любовью,<br/> ваши михаил <br/>И Валерия</h1>
+        <object
+          class=""
+          type="image/svg+xml"
+          data="./img/small.svg"
+          width="342"
+          height="299"
+        ></object>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
