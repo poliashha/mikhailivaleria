@@ -36,12 +36,13 @@
 }
 
 .main {
-  margin-top: 100px;
+ 
   display: flex;
   flex-direction: column;
   gap: 100px;
   max-width: 412px;
   margin: auto;
+   margin-top: 100px;
 }
 
 .convert {
